@@ -453,11 +453,9 @@ en:
   new_password: New password
   confirm_new_password: Confirm new password
   password_characters_minimum: Minimum %{count} Characters
-  registration_text: If you've donated - enter the same phone number you used upon
-    donation.
-  registration_code: Phone number
-  invalid_membership_code: Can't find a user with that Email / Phone number. make
-    sure you use the same email and phone you used when made the donation
+  registration_text: Enter the ticket number / token you received during the purchase of your membership.
+  registration_code: Token
+  invalid_membership_code: Can't find a user with that Email / Token number.
   membership_code_registered: Membership code is already registered for another user.
     Perhaps you want to Login
   thanks_for_sending: Thanks for sending %{grants} grant(s)
