@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   get '/me' => 'users#me'
   get '/howcanihelp' => 'howcanihelp#index'
   get '/import' => 'import#index'
-  
+  get '/importone' => 'import#one'
+
   get '*unmatched_route' => 'application#not_found'
 end

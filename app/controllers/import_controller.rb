@@ -23,4 +23,13 @@ class ImportController < ApplicationController
     puts "Found " + counter.to_s + " records"
     puts "Ignored existing " + ignoredCounter.to_s + " records"
   end
+
+  def one
+    email = params[:email]
+    phone = params[:phone]
+    unless Ticket.exists?(email: email) and Ticket.exists?(id_code: phone)
+        Ticket.create(:id_code => phone, :email => email)
+    end
+  end
+
 end
