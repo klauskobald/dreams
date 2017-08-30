@@ -5,7 +5,6 @@ class ImportController < ApplicationController
     file = ENV['IMPORT_CSV_URL']
     if file.nil?
       puts "Error: Please set env IMPORT_CSV_URL"
-      next
     end
 
 #    counter = 0
