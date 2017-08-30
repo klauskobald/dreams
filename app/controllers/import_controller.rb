@@ -1,9 +1,8 @@
 class ImportController < ApplicationController
 
   def index
-    puts "hello"
 
-#    file = ENV['IMPORT_CSV_URL']
+    file = ENV['IMPORT_CSV_URL']
 #    if file.nil?
 #      puts "Error: Please set env IMPORT_CSV_URL"
 #      next
