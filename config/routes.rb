@@ -23,7 +23,7 @@ Rails.application.routes.draw do
   get '/pages/:page' => 'pages#show'
   get '/me' => 'users#me'
   get '/howcanihelp' => 'howcanihelp#index'
-  get '/import' => 'import#all'
+  get '/import' => 'import#index'
   
   get '*unmatched_route' => 'application#not_found'
 end
