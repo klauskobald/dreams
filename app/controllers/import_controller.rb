@@ -1,6 +1,7 @@
 class ImportController < ApplicationController
 
   def index
+    puts "hello"
 
 #    file = ENV['IMPORT_CSV_URL']
 #    if file.nil?
