@@ -141,7 +141,7 @@ en:
     Quiet, Deep playa, Near camps, Near sounds camps, Far away from sound camps
 
   form_artgrants_headline: <p>Art grant information</p>
-  form_artgrants_text_html: <p>If you're not looking for an art grant, leave these fields blank.</p><p>Art grants are given by the Metaburn community. Each Metaburner has 10 art-grants to hand out. You can give all your grants to one project or spread them around. Once a grant has been gifted to a dream, it can't be taken back.</p><p>NOTICE: The budget you define here will be reviewd by our LFC "Lead Financial Officer". The value is then divided by 10. So, if you need 100€ you will need 10 grants to reach this minimum.</p>
+  form_artgrants_text_html: <p>If you're not looking for an art grant, leave these fields blank.</p><p>Art grants are given by the Metaburn community. Each Metaburner has 10 art-grants to hand out. You can give all your grants to one project or spread them around. Once a grant has been gifted to a dream, it can't be taken back.</p><p><b>NOTICE</b></p><p>The budget you define here will be reviewd by our LFC "Lead Financial Officer". The value is then divided by 10. So, if you need 100€ you will need 10 grants to reach this minimum.</p>
   form_minigrants_realcurrency_label: "Minumum number of grants needed:"
   form_minigrants_realcurrency_guidetext_html: Necessary minimum budget level in €, below which you won't get funded.
   form_maxigrants_realcurrency_label: "Grants needed to fully fund dream in €:"
