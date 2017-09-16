@@ -109,7 +109,7 @@ en:
   form_project_management_dream_pre_construction_site_guidetext_html: Where will you build your art installation, prior to arriving at the Playa?
   form_description_label: Full description of the concept
   form_description_guidetext_html: Give a full physical and conceptual description,
-    including interactivity how it will fit into Midburn community. You've got 4096
+    including interactivity how it will fit into the burner community. You've got 4096
     characters. Make them count.
   form_electricity_label: Do you need electricity from the grid? How much in Watts?
   form_electricity_guidetext_html: If yes, how much approximately are we talking in
@@ -137,7 +137,7 @@ en:
   form_cocreation_label: How can other burners co-create with you?
   form_cocreation_guidetext_html: How can someone be a part of this project?
   form_neighbors_label: Who would your perfect neighbors be?
-  form_neighbors_guidetext_html: What kind of midburners would you like as neighbors?
+  form_neighbors_guidetext_html: What kind of burners would you like as neighbors?
     Quiet, Deep playa, Near camps, Near sounds camps, Far away from sound camps
 
   form_artgrants_headline: ' Art grant information           '
@@ -174,7 +174,7 @@ en:
   form_spec_electricity_details_guidetext_html: What objects will require electricity
     in your art installation? Electric systems, computers, lighting, sound, triangle
     toasters etc.
-  form_dream_prop_interactivity_audience_participation_guidetext_html: At Midburn,
+  form_dream_prop_interactivity_audience_participation_guidetext_html: At this burn,
               the artists are encouraged to break the barriers between the art work and its
               viewers. Please share with us your vision regarding the level in which one could
               interact with the installation or influence it - climbing, touching, operating,
@@ -194,7 +194,7 @@ en:
               shared events with other communities etc.
   form_dream_prop_theme_annual_desc_guidetext_html: Does the art installation draw its inspiration from the annual "Lucid Dream" theme or supports the ten Burning Man principles?
   form_dream_scholarship_head: Midburn Art Fund scholarship application
-  form_dream_scholarship_head_desc: 'If you wish to receive a stipend from Midburn''s
+  form_dream_scholarship_head_desc: 'If you wish to receive a stipend from our
     Art Fund, please fill in the following fields. This information will be added
     to any other information entered so far, and will be forwarded to the Art Fund
     for evaluation. Please take into consideration that detail and depth are key to
@@ -314,7 +314,7 @@ en:
     less (this description will be the one to appear on the event's program booklet)
   form_program_activity: A special activity, show, ceremony or anything you may have
     in line regarding the art installation during the event to which you may want
-    to invite the inhabitatns of Midburn
+    to invite the inhabitatns of the burn
   form_program_activity_desc: Please specidy the day, time, name of activity and wether
     it is a single activity or a reoccuring one
   form_congratulations_html: Congrads. You've reached your "lowest". From here you can only fly up.
@@ -613,7 +613,7 @@ en:
         dreamprop_interactivity_is_fire_event: Burning of the installation
         dreamprop_interactivity_fire_event_desc: 'Details of burning '
         dreamprop_community_is_installation_present_for_event: The installation was
-          made expecially for Midburn
+          made expecially for this burn
         dreamprop_community_is_installation_present_for_public: The installation is
           planned for public space
         dreamprop_community_is_context: Communal connectivity
@@ -739,11 +739,11 @@ en:
           dreamprop_community_is_installation_present_for_public: Are you planning
             to exhibit your work in any public place after the event?
           dreamprop_community_is_context: Do you have connections to the community,
-            except for Midburn, before or after the event?
+            except for this burn, before or after the event?
           dreamprop_community_is_interested_in_publicity: In case there will be a
             chance of exhibiting your work in public/ at a festival/ or at another
-            Midburn event, will you be interested in doing so?
-          dreamprop_theme_is_annual: Is your project supporting the Midburn's  theme
+            burn event, will you be interested in doing so?
+          dreamprop_theme_is_annual: Is your project supporting the theme
             of the year?
           spec_is_electricity: Will your installation need electricity?
           spec_electricity_is_daytime: Will it need electricity at day time?
