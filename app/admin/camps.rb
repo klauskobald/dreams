@@ -41,6 +41,7 @@ ActiveAdmin.register Camp do
         camp.tags.collect(&:name).include?(t)
       }
     end
+    column('grants', @camp.grants_received)
   end
 
   member_action :show do
