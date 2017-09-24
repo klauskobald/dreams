@@ -578,6 +578,7 @@ en:
         maxbudget: Maximum budget
         grants_received: Hearts granted
         grantingtoggle: Grants enabled
+        granting_disabled: Granting is closed!
         active: Is it active
         is_public: Is it public
         created_at: Created
