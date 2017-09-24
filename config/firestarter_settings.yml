@@ -20,6 +20,7 @@ defaults: &defaults
   user_authentication_vs_tixwise: true
   add_to_list: true
   granting_active: <%= ENV['GRANTING_ACTIVE'] or true %>
+  show_donate_button: <%= ENV['GRANTING_SHOW_DONATE_BUTTON'] or true %>
   footer_text: true
   footer_logo: false
   creation_sidebar_welcome: true

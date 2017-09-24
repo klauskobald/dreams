@@ -93,7 +93,7 @@
                                 </div>
 
                                 <!-- If user grants are > 0, allow user to asign them -->
-                                <% if @camp.grantingtoggle %>
+                                <% if @camp.grantingtoggle and Rails.configuration.x.firestarter_settings["show_donate_button"] %>
                                     <% if current_user && current_user.grants > 0 && !@camp.fullyfunded %>
 
                                         <button type="button" class="btn btn-success donate-button" data-toggle="modal" data-target="#donateModal">
