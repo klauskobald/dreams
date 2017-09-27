@@ -1,5 +1,5 @@
 ActiveAdmin.register Camp do
-  EXCLUDED = %w(user_id seeking_members safetybag_firstMemberName safetybag_firstMemberEmail safetybag_secondMemberName safetybag_secondMemberEmail)
+  EXCLUDED = %w(contact_email user_id seeking_members safetybag_firstMemberName safetybag_firstMemberEmail safetybag_secondMemberName safetybag_secondMemberEmail)
 
   scope :active, default: true do |dreams|
     dreams.active(true)
@@ -41,6 +41,9 @@ ActiveAdmin.register Camp do
         camp.tags.collect(&:name).include?(t)
       }
     end
+
+    column camp.creator.email
+
   end
 
   member_action :show do
