@@ -36,6 +36,7 @@ ActiveAdmin.register Camp do
         camp[f].is_a?(Array) ? camp[f].join(', ') : camp[f]
       }
     end
+    column camp.creator.email
     Camp.tag_counts.map(&:name).sort_by(&:downcase).each do |t|
       column(t) { |camp|
         camp.tags.collect(&:name).include?(t)
