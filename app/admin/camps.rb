@@ -42,8 +42,6 @@ ActiveAdmin.register Camp do
       }
     end
 
-    column camp.creator.email
-
   end
 
   member_action :show do
