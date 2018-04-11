@@ -3,7 +3,7 @@ ActiveAdmin.register_page "Dashboard" do
   menu priority: 1, label: proc{ I18n.t("active_admin.dashboard") }
 
   content title: proc{ I18n.t("active_admin.dashboard") } do
-    default_coins = 3
+    default_coins = ENV['DEFAULT_HEARTS'].to_f
 
     columns do
       column do
