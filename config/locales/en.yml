@@ -453,7 +453,8 @@ en:
   new_password: New password
   confirm_new_password: Confirm new password
   password_characters_minimum: Minimum %{count} Characters
-  registration_text: Enter your bunrnertickets ticket number.
+  registration_text: Enter your burnertickets ticket number.
+  registration_email: Enter your burnertickets email address.
   registration_code: Ticket#
   invalid_membership_code: Can't find a user with that Email / Ticket#.
   membership_code_registered: Membership code is already registered for another user.
