@@ -13,6 +13,8 @@ class CampsController < ApplicationController
     if (!current_user.nil? && (current_user.admin? || current_user.guide?))
       filter[:hidden] = true
       filter[:not_hidden] = false
+    else
+      filter[:sorted_by] = 'random'
     end
 
     @filterrific = initialize_filterrific(
