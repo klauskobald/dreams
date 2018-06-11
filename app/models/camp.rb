@@ -96,6 +96,8 @@ class Camp < ActiveRecord::Base
       when /^created_at_/
          order("camps.created_at #{ direction }")
          raise(ArgumentError, "Sort option: #{ sort_option.inspect }")
+      when /^random$/i
+         order("RANDOM()")
       else
          raise(ArgumentError, "Invalid sort option: #{ sort_option.inspect }")
       end
