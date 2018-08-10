@@ -171,7 +171,7 @@ class Camp < ActiveRecord::Base
     if self.minbudget_realcurrency.nil?
       self.minbudget = nil
     elsif self.minbudget_realcurrency > 0
-      self.minbudget = (self.minbudget_realcurrency / Rails.application.config.coin_rate).ceil
+      self.minbudget = (self.minbudget_realcurrency / Rails.application.config.coin_rate)
     else
       self.minbudget = 0
     end
@@ -179,7 +179,7 @@ class Camp < ActiveRecord::Base
     if self.maxbudget_realcurrency.nil?
       self.maxbudget = nil
     elsif self.maxbudget_realcurrency > 0
-      self.maxbudget = (self.maxbudget_realcurrency / Rails.application.config.coin_rate).ceil
+      self.maxbudget = (self.maxbudget_realcurrency / Rails.application.config.coin_rate)
     else
       self.maxbudget = 0
     end
